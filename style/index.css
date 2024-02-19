@@ -1,0 +1,284 @@
+.Navation{
+    width: 100%;
+    background-color: none;
+    box-shadow: 0px 2px 12px #00000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px;
+    height: 70px;
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+}
+.Navscrolled{
+    top: 0px;
+    background-color: white;
+    box-shadow: 0px 2px 12px #00000027;
+}
+
+.Navation .Logo{
+    width: 100px;
+    height: 100%;
+}
+.Navation .Logo img{
+    height: 100%;
+}
+.Navation .Links li{
+    float: left;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.Navation .Links .CopyRit{
+    padding: 30px;
+    display: none;
+}
+
+
+.Navation .Links li a:hover{
+   color: #407bff; 
+}
+.Navation .Bar{
+   width: 40px;
+   padding: 10px;
+   display: none;
+}
+
+#Home{
+    padding: 0px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+}
+#Home .Text{
+    width: 55%;
+}
+#Home .Text p{
+    margin-top: 20px;
+}
+#Home .Text h1 span{
+    color: #407bff;
+}
+#Home .Text a{
+    background-color: #407bff;
+    width: 250px;
+    padding: 18px;
+    border-radius: 6px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+}
+#Home .Text a:hover{
+    box-shadow: 0px 8px 23px #1111112c;
+}
+#Home .Hero{
+    width: 45%;
+}
+.About{
+    padding: 10px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+.About .AbImage{
+    width: 50%;
+}
+.About .Contents{
+    width: 50%;
+}
+.About .Contents h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.About .Contents p{
+    margin-top: 30px;
+}
+.Countis{
+    display: flex;
+    background-color: #f7f7f7;
+    height: 220px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 140px;
+    margin-top: 40px;
+}
+.Countis .Project{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Searvis{
+    padding: 10px 140px;
+    margin-top: 30px;
+}
+.Searvis h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 80px;
+}
+.Searvis .Ariea{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 34px;
+}
+.Searvis .Ariea .Box{
+    background-color: white;
+    padding: 35px;
+    text-align: center;
+    height: 340px;
+    box-shadow: 0px 10px 80px #ebebeb;
+}
+.Searvis .Ariea .Box:hover{
+    transform: translateY(-10px);
+}
+.Searvis .Ariea .Box .Icon{
+    width: 90px;
+    padding: 20px;
+    margin: 10px auto;
+    
+}
+.Searvis .Ariea h3 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    
+}
+.Searvis .Ariea .Box p{
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+.Prieum{
+    padding: 50px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 100px;
+}
+.Prieum .right{
+    width: 55%;
+}
+.Prieum .right p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Prieum .right h3{
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+.Prieum .right a{
+    background-color: #407bff;
+    padding: 12px;
+    width: 170px;
+    font-size: 18px;
+    display: block;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+.Prieum .Left{
+    width: 45%;
+}
+footer{
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    padding: 40px 140px;
+}
+footer button {
+    float: left;
+    display: block;
+    background-color: white;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+footer .SecondFooter {
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+footer .SecondFooter .logo{
+    width: 100px;
+}
+footer .SecondFooter .Links{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+footer .SecondFooter .Links a{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer .SecondFooter .Tems a{
+    margin-right: 20px;
+    float: left;
+    display: block;
+    
+}
+footer .SecondFooter .Tems {
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+footer .SecondFooter .Right  form{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 20px;
+    gap: 10px;
+}
+footer .SecondFooter .Right  form input{
+    background-color: white;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    border-radius: 7px;
+}
+footer .SecondFooter .Right  form button{
+    background-color: #407bff;
+    padding: 12px 20px;
+    border: 1px solid #407bff;
+    border-radius: 7px;
+    color: white;
+}
+footer .ButtomFtr  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    color: #555;
+}
+footer .SocalLink  a{
+    display: block;
+    width: 18px;
+    margin-left: 14px;
+    opacity: .7;
+}
+footer .SocalLink  {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+
